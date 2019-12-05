@@ -1,4 +1,6 @@
-## ¹ıÂË
+## filtering out pathways with low abundances -----------##
+
+load("pathways.Rdata")
 pathabund.filter.adenoma2 <- lapply(pathabund.filter.adenoma, function(x){
   y <- noise.removal.path(x, percent = 1e-06)
   y <- y[!rownames(y) %in% c("UNMAPPED","UNINTEGRATED"),]
@@ -21,8 +23,7 @@ for (i in 1:ncol(pathabund.filter.adenoma2.df.t)) {
 }
 pathabund.filter.adenoma2.df.t$Group <- data.df.t.nohdc[rownames(pathabund.filter.adenoma2.df.t), "Group"]
 
-
-## ---- ½«·Ö×éºÍ·á¶ÈÊı¾İÕûºÏÔÚÒ»Æğ
+## ---- remove adenoma data------------##
 pathabund.filter2 <- pathabund.filter.adenoma2
 for (pro in c("PRJEB6070","PRJEB7774" ,"PRJNA447983")) {
   pathabund.filter2[[pro]] <- pathabund.filter2[[pro]][, !names(pathabund.filter2[[pro]]) %in% adenoma.metadata.3$Sample_ID]
@@ -39,7 +40,7 @@ pathabund.filter.grp <- lapply(pathabund.filter2, function(x){
   x.t <- x.t[!rownames(x.t) %in% c("pathway", "Abb"), ]
   return(x.t)
 })
-# !!!!!!!!!!!!!!!!!!------×¢Òâ´Ë´¦Ãû³ÆµÄ²»Í¬-----######
+## !!!!!!!!!!!!!----------change name --------------------##
 names(pathabund.filter.grp)[5] <- "PRJNA447983_cohort1"
 
 for(pro in names(pathabund.filter.grp)){
@@ -52,7 +53,7 @@ for (pro in names(pathabund.filter.grp)) {
 }
 
 ## ------Sep 07, 2019 -------------##
-## 
+## ------Differential pathways ----##
 pathabund.filter.grp$SRP057027 <- pathabund.filter.grp$SRP057027[rownames(pathabund.filter.grp$SRP057027) %in% rownames(data.df.t.nohdc),]
 
 
@@ -103,7 +104,7 @@ path.crc.kw.sum.3 <- subset(path.crc.kw.sum.2, count >1)
 path.crc.kw.sum.3 <- data.frame(path.crc.kw.sum.3, stringsAsFactors = F)
 path.crc.kw.sum.3$features <- as.character(path.crc.kw.sum.3$features)
 path.crc.kw.sum.3$Disease <- "CRC"
-crc.kw.path <- path.crc.kw.sum.3$features #####CRC  53¸ö
+crc.kw.path <- path.crc.kw.sum.3$features #####CRC  53ä¸ª
 
 ## ----- pathways with differential abundance in CD
 ## -----correct in Sep 07, 2019 --------------##
@@ -127,7 +128,7 @@ path.cd.kw.sum.3 <- subset(path.cd.kw.sum, count >1)
 path.cd.kw.sum.3 <- data.frame(path.cd.kw.sum.3, stringsAsFactors = F)
 path.cd.kw.sum.3$features <- as.character(path.cd.kw.sum.3$features)
 path.cd.kw.sum.3$Disease <- "CD"
-cd.kw.path <- path.cd.kw.sum.3$features #####CD 27¸ö
+cd.kw.path <- path.cd.kw.sum.3$features #####CD 27ä¸ª
 
 ## ----- pathways with differential abundance in UC
 path.uc.kw.list <- list()
@@ -151,8 +152,9 @@ path.uc.kw.sum.3 <- subset(path.uc.kw.sum.2, count >1)
 path.uc.kw.sum.3 <- data.frame(path.uc.kw.sum.3, stringsAsFactors = F)
 path.uc.kw.sum.3$features <- as.character(path.uc.kw.sum.3$features)
 path.uc.kw.sum.3$Disease <- "UC"
-uc.kw.path <- path.uc.kw.sum.3$features #####UC 2¸ö
+uc.kw.path <- path.uc.kw.sum.3$features #####UC 2ä¸ª
 
+## -----------HDC correlated pathways -----------##
 pathabund.filter.HDC <- pathabund.filter.grp
 for (pro in names(pathabund.filter.HDC)) {
   pathabund.filter.HDC[[pro]] <- cbind(metadata[rownames(pathabund.filter.HDC[[pro]]), "HDC"],
