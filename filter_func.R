@@ -39,31 +39,3 @@ noise.removal.path <- function(data, percent = 1e-06, top=NULL){
   return(Matrix_2)
 }
 
-## --- correlations between HDC and species/pathways ---##
-
-cor.func <- function(data, type = "CD", project = "PRJNA389280"){
-  ##data, first column is humanper 
-  cut_sig <- function(p) {
-    out <- cut(p, breaks = c(0, 0.01,0.05,1), include.lowest = T, 
-               labels = c("**", "*", ""))
-    return(out)
-  }
-  ##-----require data, first column is humanper----
-  data.cor <- rcorr(as.matrix(data), type = "spearman")
-  data.coef <- data.cor$r[1,-1]
-  data.P <- data.cor$P[1,-1]
-  data.P.nona <- na.omit(data.P)
-  data.coef.nona <- na.omit(data.coef)
-  data.sig <- data.frame(apply(data.frame(data.P.nona), 2, cut_sig))
-  rownames(data.sig) <- names(data.P.nona)
-  ##samples in week 0
-  ##coef results bewtween humanDNA% and taxa abundance
-  data.cor.sum <- cbind(data.coef.nona, data.P.nona, data.sig)
-  names(data.cor.sum) <- c("coef","P_value","SigLevel")
-  data.cor.sum[,"Species"] <- rownames(data.cor.sum)
-  data.cor.sum[,"Type"] <- type
-  data.cor.sum[,"Project"] <- project
-  sig.taxa <- subset(data.cor.sum,! SigLevel %in% "")
-  return(list(data.cor.sum = data.cor.sum,
-              sig.taxa = sig.taxa))
-}
