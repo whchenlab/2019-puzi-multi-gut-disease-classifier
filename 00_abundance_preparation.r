@@ -9,7 +9,7 @@ data.phylum.func <- function(data){
   ##-----data为metaphlan2生成的结果，i为sample名字长度
   ##colnames(data) <- substr(colnames(data),1,i)
   clade <- data$ID
-  ##-----将ID替换成具体的分类名函数--------
+  ##-------------
   parse_taxonomy <- function (clade, derep = TRUE) {
     # The clade string has the form
     # "k__Archaea|p__Euryarchaeota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae|g__Methanosphaera|s__Methanosphaera_stadtmanae|t__GCF_000012545"
@@ -33,14 +33,14 @@ data.phylum.func <- function(data){
   ##-----
   clade.result <- parse_taxonomy(clade)
   data.merge <- cbind(clade.result, data[,!colnames(data) %in% "ID"])
-  ##-----生成phylum.to.genus为后面画热图做准备
+  ##-----生成phylum.to.genus 
   
   phylum.to.genus <- subset(clade.result,is.na(Species) & !(is.na(Genus)) & Kingdom %in% "Bacteria" , select = c(Phylum, Genus))
   phylum.to.genus <- phylum.to.genus %>% distinct()
   annot.genus <- data.frame(phylum = phylum.to.genus$Phylum, stringsAsFactors = F)
   rownames(annot.genus) <- phylum.to.genus$Genus
   
-  ##-----生成phylum.to.species为后面画热图做准备
+  ##-----生成phylum.to.species 
   
   phylum.to.species <- subset(clade.result, is.na(Strain) & !(is.na(Species)) & Kingdom %in% "Bacteria" , select = c(Phylum, Species))
   phylum.to.species <- phylum.to.species %>% distinct()
