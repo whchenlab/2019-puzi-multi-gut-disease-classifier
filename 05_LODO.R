@@ -4,6 +4,8 @@ library(dplyr)
 library(mlr3tuning)
 library(paradox)
 
+all.combined.df <- all.combined.log.list$four.gp
+
 ## teminator setting
 evals10 <- trm("evals", n_evals = 10)
 ## internal sampling setting
