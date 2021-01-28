@@ -53,10 +53,15 @@ kw.spe.list <- lapply(all.spe.list,
                         return(y)
                       })
 
-save(all.spe.list, 
-     kw.spe.list, 
+all.spe.log.list <- lapply(all.spe.list, function(data){
+                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-6) })
+kw.spe.log.list <- lapply(kw.spe.list, function(data){
+                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-6) })
+
+save(all.spe.log.list, 
+     kw.spe.log.list, 
      metadata,
-     file = "../RData/species_list_rf.Rdata")
+     file = "../RData/species_normData_rf.Rdata")
 
 ## Pathways data ------------
 kw.path.df <- read.delim("../SuppleData/metafor_pathways_coef_signif.txt",
@@ -115,33 +120,38 @@ kw.path.list <- lapply(all.path.list,
                         y <- data[, names(data) %in% c(unique(kw.path.df.merge$Abb), "Group")];
                         return(y)
                       })
+all.path.log.list <- lapply(all.path.list, function(data){
+                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-9) })
+kw.path.log.list <- lapply(kw.path.list, function(data){
+                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-9) })
 
-save(all.path.list, 
-     kw.path.list, 
+save(all.path.log.list, 
+     kw.path.log.list, 
      metadata,
-     file = "../RData/pathways_list_rf.Rdata")
+     file = "../RData/pathways_normData_rf.Rdata")
 
 ## Create combined data
-abund.combined.list.rf <- cbind(abund.s.list.rf,
-                                abund.path.list.rf[rownames(abund.s.list.rf), !names(abund.path.list.rf) %in% "Group"])
-all.combined.list <- list(four.gp = abund.combined.list.rf, 
+abund.combined.list.rf <- cbind(all.spe.log.list$four.gp,
+                                all.path.log.list$four.gp[rownames(all.spe.log.list$four.gp), !names(all.path.log.list$four.gp) %in% "Group"])
+all.combined.log.list <- list(four.gp = abund.combined.list.rf, 
                           three.gp = abund.combined.list.rf[-which(abund.combined.list.rf$Group %in% "CTR"), ],
                           binary = abund.combined.list.rf)
-all.combined.list$binary[-which(all.combined.list$binary$Group %in% "CTR"), "Group"] <- "Case"
+all.combined.log.list$binary[-which(all.combined.log.list$binary$Group %in% "CTR"), "Group"] <- "Case"
 
-kw.combined.list <- lapply(all.combined.list, 
+kw.combined.log.list <- lapply(all.combined.log.list, 
                        function(data){
                          y <- data[, names(data) %in% c(unique(kw.path.df.merge$Abb), unique(kw.spe.df$feature), "Group")];
                          return(y)
                        })
 
-save(all.combined.list, 
-     kw.combined.list, 
+save(all.combined.log.list, 
+     kw.combined.log.list, 
      metadata,
-     file = "../RData/combined_list_rf.Rdata")
+     file = "../RData/combined_normData_rf.Rdata")
 
-## Rscript allfeat_list01.R ../RData/combined_list_rf.Rdata combined_crossrf_result
-## Rscript allfeat_list.R ../RData/pathways_list_rf.Rdata pathways_crossrf_result
+## Rscript allfeat_list01.R ../RData/species_normData_rf.Rdata species_crossrf_result
+## Rscript allfeat_list01.R ../RData/pathways_normData_rf.Rdata pathways_crossrf_result
+## Rscript allfeat_list.R ../RData/combined_normData_rf.Rdata combined_crossrf_result
 ## -------------------------- ten times ten-fold cross-validation
 repeated.rf.confusion <- function(a, times = 10, k = 10){
   library(ROCR)
@@ -228,22 +238,22 @@ kw.spe.log.rf.result  <- parLapply(cl, kw.spe.log.list, repeated.rf.confusion)
 kw.path.log.rf.result <- parLapply(cl, kw.path.log.list, repeated.rf.confusion)
 
 save(kw.combined.log.rf.result, kw.spe.log.rf.result, kw.path.log.rf.result,
-     file = "species_crossrf_result.RData")
+     file = "kw_normData_rf_results.RData")
 stopCluster(cl)
 
 ## --------------------------
 load("all_normData_rf_results.RData")
 load("kw_normData_rf_results.RData")
 ## dif- data
-data.df.group.list <- list(four.gp = data.frame(Group = kw.combined.list$four.gp$Group,
+data.df.group.list <- list(four.gp = data.frame(Group = kw.combined.log.list$four.gp$Group,
                                                 stringsAsFactors = FALSE),
-                           three.gp = data.frame(Group = kw.combined.list$three.gp$Group,
+                           three.gp = data.frame(Group = kw.combined.log.list$three.gp$Group,
                                                 stringsAsFactors = FALSE),
-                           binary = data.frame(Group = kw.combined.list$binary$Group,
+                           binary = data.frame(Group = kw.combined.log.list$binary$Group,
                                                  stringsAsFactors = FALSE))
-rownames(data.df.group.list$four.gp) <- rownames(kw.combined.list$four.gp)
-rownames(data.df.group.list$three.gp) <- rownames(kw.combined.list$three.gp)
-rownames(data.df.group.list$binary) <- rownames(kw.combined.list$binary)
+rownames(data.df.group.list$four.gp) <- rownames(kw.combined.log.list$four.gp)
+rownames(data.df.group.list$three.gp) <- rownames(kw.combined.log.list$three.gp)
+rownames(data.df.group.list$binary) <- rownames(kw.combined.log.list$binary)
 
 confusion.plot <- function(data, data.df.group){
   data.sig.result.pred <- lapply(data$pred.matrix.list,function(data){ y <- reduce(data, rbind);name <- names(y);names(y) <- c("Group","Sample"); y.2 <- y %>% group_by(Sample) %>% summarise(mean = mean(Group)); names(y.2) <- rev(name); return(y.2)})
