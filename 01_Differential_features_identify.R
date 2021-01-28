@@ -287,7 +287,7 @@ metadata[which(metadata$Project %in% "PRJNA447983_cohort1"), "Project"] <- "PRJN
 
 confounder.sum <- list()
 
-for (pro in unique(metadata$Project)) {
+for (pro in crc.project) {
   a <- metadata %>% filter(Project %in% pro)
   a.summ <- a %>% group_by(Group) %>% 
     summarise(age.median = median(Age, na.rm = T),
@@ -297,14 +297,14 @@ for (pro in unique(metadata$Project)) {
               HDC.median = median(humanper, na.rm = T))
   ## testing age
   if (!(is.na(a.summ$age.median[1]))){
-    a.test <- kruskal.test(a$Age ~ a$Group)
+    a.test <- wilcox.test(a$Age ~ a$Group)
     a.summ$age.pval <- a.test$p.value
   }else {
     a.summ$age.pval <- NA
   }
   ## testing bmi
   if (!(is.na(a.summ$bmi.median[1]))){
-    a.test <- kruskal.test(a$BMI ~ a$Group)
+    a.test <- wilcox.test(a$BMI ~ a$Group)
     a.summ$BMI.pval <- a.test$p.value
   }else {
     a.summ$BMI.pval <- NA
@@ -318,11 +318,89 @@ for (pro in unique(metadata$Project)) {
     a.summ$Gender.pval <- NA
   }
   ## testing HDC
-  a.test <- kruskal.test(a$humanper ~ a$Group)
+  a.test <- wilcox.test(a$humanper ~ a$Group)
   a.summ$HDC.pval <- a.test$p.value
   
   a.summ$Project <- pro
   confounder.sum[[pro]] <- a.summ
+  
+}
+
+for (pro in cd.project) {
+  a <- metadata %>% filter(Project %in% pro) %>% filter(Group %in% c("CTR", "CD"))
+  a.summ <- a %>% group_by(Group) %>% 
+    summarise(age.median = median(Age, na.rm = T),
+              bmi.median = median(BMI, na.rm = T),
+              male = sum(Gender == "male", na.rm = T),
+              female = sum(Gender == "female", na.rm = T), 
+              HDC.median = median(humanper, na.rm = T))
+  ## testing age
+  if (!(is.na(a.summ$age.median[1]))){
+    a.test <- wilcox.test(a$Age ~ a$Group)
+    a.summ$age.pval <- a.test$p.value
+  }else {
+    a.summ$age.pval <- NA
+  }
+  ## testing bmi
+  if (!(is.na(a.summ$bmi.median[1]))){
+    a.test <- wilcox.test(a$BMI ~ a$Group)
+    a.summ$BMI.pval <- a.test$p.value
+  }else {
+    a.summ$BMI.pval <- NA
+  }
+  ## testing Gender
+  if (a.summ$male != 0 & a.summ$female != 0) {
+    a.test <- a.summ[,c("male","female")]
+    a.chis <- chisq.test(a.test)
+    a.summ$Gender.pval <- a.chis$p.value
+  }else {
+    a.summ$Gender.pval <- NA
+  }
+  ## testing HDC
+  a.test <- wilcox.test(a$humanper ~ a$Group)
+  a.summ$HDC.pval <- a.test$p.value
+  
+  a.summ$Project <- paste0("CD_", pro)
+  confounder.sum[[paste0("CD_", pro)]] <- a.summ
+  
+}
+
+for (pro in uc.project) {
+  a <- metadata %>% filter(Project %in% pro) %>% filter(Group %in% c("CTR", "UC"))
+  a.summ <- a %>% group_by(Group) %>% 
+    summarise(age.median = median(Age, na.rm = T),
+              bmi.median = median(BMI, na.rm = T),
+              male = sum(Gender == "male", na.rm = T),
+              female = sum(Gender == "female", na.rm = T), 
+              HDC.median = median(humanper, na.rm = T))
+  ## testing age
+  if (!(is.na(a.summ$age.median[1]))){
+    a.test <- wilcox.test(a$Age ~ a$Group)
+    a.summ$age.pval <- a.test$p.value
+  }else {
+    a.summ$age.pval <- NA
+  }
+  ## testing bmi
+  if (!(is.na(a.summ$bmi.median[1]))){
+    a.test <- wilcox.test(a$BMI ~ a$Group)
+    a.summ$BMI.pval <- a.test$p.value
+  }else {
+    a.summ$BMI.pval <- NA
+  }
+  ## testing Gender
+  if (a.summ$male != 0 & a.summ$female != 0) {
+    a.test <- a.summ[,c("male","female")]
+    a.chis <- chisq.test(a.test)
+    a.summ$Gender.pval <- a.chis$p.value
+  }else {
+    a.summ$Gender.pval <- NA
+  }
+  ## testing HDC
+  a.test <- wilcox.test(a$humanper ~ a$Group)
+  a.summ$HDC.pval <- a.test$p.value
+  
+  a.summ$Project <- paste0("UC_", pro)
+  confounder.sum[[paste0("UC_", pro)]] <- a.summ
   
 }
 confounder.sum.df <- confounder.sum %>% reduce(rbind)
