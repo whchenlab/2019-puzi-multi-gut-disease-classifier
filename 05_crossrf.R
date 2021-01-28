@@ -54,9 +54,9 @@ kw.spe.list <- lapply(all.spe.list,
                       })
 
 all.spe.log.list <- lapply(all.spe.list, function(data){
-                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-6) })
+                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-6); return(data)})
 kw.spe.log.list <- lapply(kw.spe.list, function(data){
-                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-6) })
+                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-6); return(data) })
 
 save(all.spe.log.list, 
      kw.spe.log.list, 
@@ -121,9 +121,9 @@ kw.path.list <- lapply(all.path.list,
                         return(y)
                       })
 all.path.log.list <- lapply(all.path.list, function(data){
-                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-9) })
+                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-9); return(data) })
 kw.path.log.list <- lapply(kw.path.list, function(data){
-                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-9) })
+                           data[,! names(data) %in% "Group"] <- log10(data[,! names(data) %in% "Group"] + 1e-9) ; return(data)})
 
 save(all.path.log.list, 
      kw.path.log.list, 
