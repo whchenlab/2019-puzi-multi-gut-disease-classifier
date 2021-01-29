@@ -1,0 +1,102 @@
+feature	exposure	coef	k	qval.fdr	Phylum.x	Trend	Kingdom	Phylum.y	Class	Order	Family	Genus	final.spe
+Acidaminococcus_intestini	UC	0.185429985601132	3	0.0225954796335775	Firmicutes	Case-enriched	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Acidaminococcaceae	Acidaminococcus	Acidaminococcus intestini
+Alistipes_finegoldii	UC	-0.542348977720307	3	0.00227632122177278	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes finegoldii
+Alistipes_finegoldii	CD	-0.597616575404347	3	0.0287999019514579	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes finegoldii
+Alistipes_onderdonkii	CRC	0.433593029560763	7	0.0315676389668723	Bacteroidetes	Case-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes onderdonkii
+Alistipes_onderdonkii	CD	-1.0335431932858	3	0.000411651380217267	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes onderdonkii
+Alistipes_putredinis	CD	-1.40445033656165	3	0.0105137716140916	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes putredinis
+Alistipes_senegalensis	CD	-0.472470628444046	3	0.0105137716140916	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes senegalensis
+Alistipes_shahii	CD	-0.763587223790336	3	0.00560576203666651	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes shahii
+Alistipes_sp_AP11	CRC	0.0827419639675121	7	0.0220582018564596	Bacteroidetes	Case-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes sp AP11
+Alloprevotella_tannerae	CRC	0.00989083588644302	6	0.0441494660725325	Bacteroidetes	Case-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	Alloprevotella tannerae
+Anaerococcus_vaginalis	UC	0.0732632357492742	2	0.0464710325149479	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales_Family_XI_Incertae_Sedis	Anaerococcus	Anaerococcus vaginalis
+Anaerostipes_hadrus	CD	-0.745603733467984	3	0.0105137716140916	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerostipes	Anaerostipes hadrus
+Anaerostipes_hadrus	CRC	-0.273178803932642	7	0.00417480932221347	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerostipes	Anaerostipes hadrus
+Anaerotruncus_colihominis	CRC	0.321099811824307	7	0.00200249204532989	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Anaerotruncus	Anaerotruncus colihominis
+Anaerotruncus_unclassified	CRC	0.243287237579017	7	0.0380571361620041	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Anaerotruncus	Anaerotruncus spp.
+Bacteroidales_bacterium_ph8	CD	-0.907024505985103	3	0.0435019117697003	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidales_noname	Bacteroidales_noname	Bacteroidales bacterium ph8
+Bacteroides_cellulosilyticus	UC	-0.451334405846963	3	0.0405865484445635	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides cellulosilyticus
+Bacteroides_fragilis	CRC	0.580396285314163	7	1.53547185273824e-06	Bacteroidetes	Case-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides fragilis
+Bacteroides_nordii	CD	-0.253001590994354	3	0.00987994265899933	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides nordii
+Bacteroides_pectinophilus	CD	-0.013343154727909	3	0.0322186544787585	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales_noname	Clostridiales_noname	Bacteroides pectinophilus
+Bacteroides_plebeius	CD	-0.196518100452701	3	0.00982318284960836	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides plebeius
+Bacteroides_salyersiae	CRC	0.231211063035515	7	0.0331663214824186	Bacteroidetes	Case-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides salyersiae
+Bacteroides_stercoris	CD	-0.904446706299358	3	0.00161933662553639	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides stercoris
+Bacteroides_thetaiotaomicron	UC	-0.545813636796893	3	0.0421156588627358	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides thetaiotaomicron
+Bacteroides_vulgatus	CD	-0.604509312877654	3	0.0292563372153676	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides vulgatus
+Bifidobacterium_adolescentis	CD	-0.598558065971949	3	0.00373468775776265	Actinobacteria	Control-enriched	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium adolescentis
+Bilophila_wadsworthia	CRC	0.248459689694469	7	0.0108575548362044	Proteobacteria	Case-enriched	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Bilophila	Bilophila wadsworthia
+Citrobacter_freundii	CD	0.147349503203072	3	0.0288008271454463	Proteobacteria	Case-enriched	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Citrobacter	Citrobacter freundii
+Citrobacter_unclassified	CD	0.156652434496244	3	0.0475142393250899	Proteobacteria	Case-enriched	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Citrobacter	Citrobacter spp.
+Clostridiales_bacterium_1_7_47FAA	CRC	0.292230189877003	7	0.0336272749344836	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales_noname	Clostridiales_noname	Clostridiales bacterium 1 7 47FAA
+Clostridium_asparagiforme	CRC	0.2710338892995	7	0.0145878850300064	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium asparagiforme
+Clostridium_bolteae	CD	0.748586313097964	3	0.0178745051747632	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium bolteae
+Clostridium_bolteae	CRC	0.434123794958198	7	0.000264675943216483	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium bolteae
+Clostridium_citroniae	CD	0.347733323793897	3	0.0398510530034965	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium citroniae
+Clostridium_citroniae	CRC	0.302008211503454	7	0.000869558480128965	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium citroniae
+Clostridium_hathewayi	CRC	0.790733756419486	7	9.6699525495443e-12	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium hathewayi
+Clostridium_innocuum	CRC	0.0856908545935344	7	0.034538677999205	Firmicutes	Case-enriched	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Erysipelotrichaceae_noname	Clostridium innocuum
+Clostridium_leptum	CD	-0.844608410105429	3	1.24251140517199e-07	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium leptum
+Clostridium_sp_KLE_1755	UC	0.0525823810438458	2	0.0421156588627358	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp KLE 1755
+Clostridium_symbiosum	CRC	0.723818207622984	7	9.6699525495443e-12	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium symbiosum
+Clostridium_symbiosum	CD	0.695433621476517	3	0.000343908756941641	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium symbiosum
+Coprococcus_catus	CD	-0.617191013345204	3	0.0411290609973995	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	Coprococcus catus
+Coprococcus_comes	CRC	-0.259518336541069	7	0.0315676389668723	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	Coprococcus comes
+Desulfovibrio_desulfuricans	CRC	0.163625040223186	7	0.0114589129337758	Proteobacteria	Case-enriched	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio desulfuricans
+Erysipelotrichaceae_bacterium_2_2_44A	CRC	0.174214147198346	7	0.0400970874756702	Firmicutes	Case-enriched	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Erysipelotrichaceae_noname	Erysipelotrichaceae bacterium 2 2 44A
+Escherichia_coli	CD	0.906272541885417	3	0.0314640363110268	Proteobacteria	Case-enriched	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia	Escherichia coli
+Eubacterium_hallii	CD	-1.12901730395266	3	0.00219945193475177	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium hallii
+Eubacterium_hallii	CRC	-0.279916722654085	7	0.0166295457932775	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium hallii
+Eubacterium_siraeum	CD	-0.94732927536169	3	0.0314640363110268	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium siraeum
+Eubacterium_ventriosum	CD	-0.950224967340337	3	0.00340648466064796	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium ventriosum
+Flavonifractor_plautii	UC	0.468161345888024	3	0.0335726978402193	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales_noname	Flavonifractor	Flavonifractor plautii
+Fusobacterium_nucleatum	CRC	0.64769059193965	7	3.45645048075152e-06	Fusobacteria	Case-enriched	Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium nucleatum
+Gemella_morbillorum	UC	0.122940935253206	2	0.0352775230812369	Firmicutes	Case-enriched	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillales_noname	Gemella	Gemella morbillorum
+Gemella_morbillorum	CRC	0.610939692240064	7	8.31235182873379e-06	Firmicutes	Case-enriched	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillales_noname	Gemella	Gemella morbillorum
+Granulicatella_adiacens	CRC	0.257419332492571	7	0.00675149039687833	Firmicutes	Case-enriched	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	Granulicatella adiacens
+Klebsiella_pneumoniae	CD	0.413037151351344	3	0.00106533817710185	Proteobacteria	Case-enriched	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	Klebsiella pneumoniae
+Klebsiella_unclassified	CD	0.181721340200816	3	0.0288008271454463	Proteobacteria	Case-enriched	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	Klebsiella spp.
+Lachnospiraceae_bacterium_3_1_57FAA_CT1	CRC	0.535797789575115	7	3.21418943362535e-07	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_noname	Lachnospiraceae bacterium 3 1 57FAA CT1
+Lachnospiraceae_bacterium_5_1_63FAA	CRC	-0.283908571170099	7	0.0400970874756702	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_noname	Lachnospiraceae bacterium 5 1 63FAA
+Lachnospiraceae_bacterium_5_1_63FAA	CD	-0.634306734755808	3	0.000168884623804253	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_noname	Lachnospiraceae bacterium 5 1 63FAA
+Lachnospiraceae_bacterium_7_1_58FAA	CRC	0.313016628730903	7	0.0276645585164967	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_noname	Lachnospiraceae bacterium 7 1 58FAA
+Lactobacillus_fermentum	CD	0.41947625869746	2	0.0127962337088603	Firmicutes	Case-enriched	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus fermentum
+Megamonas_hypermegale	CD	-0.0949218592858172	3	0.0287999019514579	Firmicutes	Control-enriched	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Megamonas	Megamonas hypermegale
+Megamonas_unclassified	CD	-0.166054338137085	3	0.0314640363110268	Firmicutes	Control-enriched	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Megamonas	Megamonas spp.
+Megasphaera_unclassified	CRC	0.107295595135362	7	0.0491756881045566	Firmicutes	Case-enriched	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Megasphaera	Megasphaera spp.
+Odoribacter_laneus	CD	-0.0331475967740452	3	0.0263138132663519	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Odoribacter	Odoribacter laneus
+Parabacteroides_goldsteinii	CD	-0.281687807706436	3	0.0200123812055201	Bacteroidetes	Control-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Parabacteroides	Parabacteroides goldsteinii
+Parvimonas_micra	CRC	0.530633368003255	7	0.00340993697031111	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales_Family_XI_Incertae_Sedis	Parvimonas	Parvimonas micra
+Parvimonas_unclassified	CRC	0.923602166850798	7	2.6798993294327e-07	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales_Family_XI_Incertae_Sedis	Parvimonas	Parvimonas spp.
+Peptostreptococcus_anaerobius	CRC	0.168183321057603	7	0.0336272749344836	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	Peptostreptococcus anaerobius
+Peptostreptococcus_stomatis	CRC	0.838885183469753	7	1.44061289753475e-05	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	Peptostreptococcus stomatis
+Peptostreptococcus_stomatis	UC	0.420201229972748	2	2.38862179269178e-05	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	Peptostreptococcus stomatis
+Peptostreptococcus_unclassified	CRC	0.207239130564996	7	9.58565132029396e-05	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	Peptostreptococcus spp.
+Porphyromonas_asaccharolytica	CRC	0.494200204689975	7	4.42368624362111e-07	Bacteroidetes	Case-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas asaccharolytica
+Porphyromonas_somerae	CRC	0.199777748040423	6	0.0400970874756702	Bacteroidetes	Case-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas somerae
+Porphyromonas_uenonis	CRC	0.316619019024554	7	0.00675149039687833	Bacteroidetes	Case-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas uenonis
+Prevotella_intermedia	CRC	0.14822519801604	5	7.38123870338438e-05	Bacteroidetes	Case-enriched	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella intermedia
+Roseburia_hominis	CD	-1.25180615846651	3	0.000343908756941641	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia hominis
+Roseburia_intestinalis	CRC	-0.522229344891544	7	0.0142979816650375	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia intestinalis
+Roseburia_inulinivorans	CD	-1.07969491591318	3	4.0094729404523e-05	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia inulinivorans
+Ruminococcaceae_bacterium_D16	CRC	0.4402917402521	7	0.0113724338520948	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcaceae_noname	Ruminococcaceae bacterium D16
+Ruminococcus_bromii	CD	-1.3476204656325	3	0.000129462030281323	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus bromii
+Ruminococcus_bromii	UC	-0.759442590103415	3	0.00831375472521515	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus bromii
+Ruminococcus_gnavus	UC	0.417070829412116	3	0.0405865484445635	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Ruminococcus gnavus
+Ruminococcus_lactaris	CD	-0.69352019764767	3	0.0288008271454463	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus lactaris
+Ruminococcus_sp_5_1_39BFAA	CD	-0.301818142372427	3	0.0292563372153676	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus sp 5 1 39BFAA
+Ruminococcus_torques	CD	-0.274665369036741	3	0.0292563372153676	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Ruminococcus torques
+Ruminococcus_torques	CRC	0.170727577394222	7	0.00403126009215195	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Ruminococcus torques
+Slackia_unclassified	CRC	0.110065503707647	6	0.00386588347015377	Actinobacteria	Case-enriched	Bacteria	Actinobacteria	Actinobacteria	Coriobacteriales	Coriobacteriaceae	Slackia	Slackia spp.
+Solobacterium_moorei	CRC	0.625007679110525	7	2.58570476735416e-06	Firmicutes	Case-enriched	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Solobacterium	Solobacterium moorei
+Solobacterium_moorei	UC	0.320217697905581	2	4.78372617100484e-06	Firmicutes	Case-enriched	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Solobacterium	Solobacterium moorei
+Streptococcus_anginosus	CRC	0.217923366067036	7	0.0390717834721451	Firmicutes	Case-enriched	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus anginosus
+Streptococcus_mitis_oralis_pneumoniae	UC	0.24459928349746	2	0.00274550911919738	Firmicutes	Case-enriched	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus mitis oralis pneumoniae
+Streptococcus_parasanguinis	CD	0.345109725954496	3	0.0287999019514579	Firmicutes	Case-enriched	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus parasanguinis
+Subdoligranulum_sp_4_3_54A2FAA	CRC	0.099591060052031	7	0.00258538754652687	Firmicutes	Case-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Subdoligranulum	Subdoligranulum sp 4 3 54A2FAA
+Subdoligranulum_unclassified	UC	-0.467143781868346	3	0.0225954796335775	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Subdoligranulum	Subdoligranulum spp.
+Subdoligranulum_unclassified	CD	-0.783017586716581	3	0.0314640363110268	Firmicutes	Control-enriched	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Subdoligranulum	Subdoligranulum spp.
+Synergistes_sp_3_1_syn1	CRC	0.0176770190374657	6	0.0257577502852373	Synergistetes	Case-enriched	Bacteria	Synergistetes	Synergistia	Synergistales	Synergistaceae	Synergistes	Synergistes sp 3 1 syn1
+Veillonella_atypica	CD	0.443997589090974	3	0.0287028448918932	Firmicutes	Case-enriched	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	Veillonella atypica
+Veillonella_parvula	CD	0.625903084405123	3	0.0106467065748417	Firmicutes	Case-enriched	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	Veillonella parvula
+Veillonella_unclassified	CD	0.443973197849087	3	0.0464462028478281	Firmicutes	Case-enriched	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	Veillonella spp.

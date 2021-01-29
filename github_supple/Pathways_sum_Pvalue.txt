@@ -1,0 +1,52 @@
+Dataset	variable	value
+1	CD	Carbohydrate degradation	0.00463525615157988
+2	UC	Carbohydrate degradation	0.136847476487381
+3	CRC	Carbohydrate degradation	2.97590166527237e-09
+4	CD	Amino Acid Degradation	0.010577978128559
+5	UC	Amino Acid Degradation	0.0873578221911659
+6	CRC	Amino Acid Degradation	3.5527136788005e-15
+7	CD	Carboxylate Degradation	0.000551920789795712
+8	UC	Carboxylate Degradation	0.756685744057351
+9	CRC	Carboxylate Degradation	1.06473097805093e-06
+10	CD	Nucleoside and Nucleotide Degradation	5.26534493410225e-05
+11	UC	Nucleoside and Nucleotide Degradation	0.087488794894836
+12	CRC	Nucleoside and Nucleotide Degradation	0.924629345840158
+13	CD	Secondary Metabolite Degradation	NA
+14	UC	Secondary Metabolite Degradation	NA
+15	CRC	Secondary Metabolite Degradation	0.00339450517221374
+16	CD	Amino Acid Biosynthesis	3.08046350502902e-10
+17	UC	Amino Acid Biosynthesis	0.610094628975441
+18	CRC	Amino Acid Biosynthesis	0.00143350370559418
+19	CD	Aromatic Compound Biosynthesis	9.47600181435795e-06
+20	UC	Aromatic Compound Biosynthesis	0.248618207217571
+21	CRC	Aromatic Compound Biosynthesis	1.25981861372743e-08
+22	CD	Carbohydrate Biosynthesis	0.115711623707722
+23	UC	Carbohydrate Biosynthesis	0.0784864191198988
+24	CRC	Carbohydrate Biosynthesis	3.9432301868203e-10
+25	CD	Cofactor, Carrier, and Vitamin Biosynthesis	0.000963857979960812
+26	UC	Cofactor, Carrier, and Vitamin Biosynthesis	0.179955089674081
+27	CRC	Cofactor, Carrier, and Vitamin Biosynthesis	0.88074189216151
+28	CD	Fatty Acid and Lipid Biosynthesis	4.33821551208968e-05
+29	UC	Fatty Acid and Lipid Biosynthesis	0.341938563547495
+30	CRC	Fatty Acid and Lipid Biosynthesis	0.189877774366006
+31	CD	Nucleoside and Nucleotide Biosynthesis	0.063535857848949
+32	UC	Nucleoside and Nucleotide Biosynthesis	0.275317616405024
+33	CRC	Nucleoside and Nucleotide Biosynthesis	0.228125185046483
+34	CD	Secondary Metabolite Biosynthesis	8.77640561324331e-06
+35	UC	Secondary Metabolite Biosynthesis	0.380131103156308
+36	CRC	Secondary Metabolite Biosynthesis	3.83746478372034e-05
+37	CD	Fermentation	0.558545593097732
+38	UC	Fermentation	0.0256913295044606
+39	CRC	Fermentation	1.66857065253545e-06
+40	CD	Glycolysis	8.02239373154379e-07
+41	UC	Glycolysis	0.137595099646739
+42	CRC	Glycolysis	1.54127658835712e-06
+43	CD	Generation of Precursor Metabolites and Energy	0.0124854427813426
+44	UC	Generation of Precursor Metabolites and Energy	0.26205349042994
+45	CRC	Generation of Precursor Metabolites and Energy	0.0354043007772689
+46	CD	Inorganic Nutrient Metabolism	0.515822262514895
+47	UC	Inorganic Nutrient Metabolism	0.74127776482963
+48	CRC	Inorganic Nutrient Metabolism	0.212819040606895
+49	CD	Aminoacyl-tRNA Charging	7.16165662488157e-14
+50	UC	Aminoacyl-tRNA Charging	0.0439699684036452
+51	CRC	Aminoacyl-tRNA Charging	0.0389857134222025

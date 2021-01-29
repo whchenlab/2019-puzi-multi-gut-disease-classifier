@@ -1,0 +1,87 @@
+Abb	exposure	feature	coef	k	qval.fdr	Trend	count_sig	HDC_related	Superclass
+Pathway_ANAEROFRUCAT_PWY	CD	ANAEROFRUCAT-PWY: homolactic fermentation	0.087786494	3	0.020470352	Case-enriched	NA	NO	Fermentation
+Pathway_ANAEROFRUCAT_PWY	CRC	ANAEROFRUCAT-PWY: homolactic fermentation	0.049717988	7	0.001838583	Case-enriched	NA	NO	Fermentation
+Pathway_ARGININE_SYN4_PWY	UC	ARGININE-SYN4-PWY: L-ornithine de novo  biosynthesis	-0.221441693	3	0.045139344	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_ARO_PWY	CD	ARO-PWY: chorismate biosynthesis I	-0.065645723	3	0.002102977	Control-enriched	3	Yes	Aromatic Compound Biosynthesis
+Pathway_ARO_PWY	UC	ARO-PWY: chorismate biosynthesis I	-0.045243506	3	0.01588194	Control-enriched	NA	NO	Aromatic Compound Biosynthesis
+Pathway_BRANCHED_CHAIN_AA_SYN_PWY	CD	BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched amino acid biosynthesis	-0.089037954	3	0.01552433	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_COMPLETE_ARO_PWY	CD	COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis	-0.061269084	3	0.002048392	Control-enriched	3	Yes	Amino Acid Biosynthesis
+Pathway_COMPLETE_ARO_PWY	CRC	COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis	-0.022325779	7	0.033016991	Control-enriched	NA	NO	Amino Acid Biosynthesis
+Pathway_GLUCONEO_PWY	CRC	GLUCONEO-PWY: gluconeogenesis I	0.130987184	7	0.002221922	Case-enriched	NA	NO	Carbohydrate Biosynthesis
+Pathway_GLYCOLYSIS	CD	GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)	0.19316693	3	0.000227787	Case-enriched	NA	NO	Glycolysis
+Pathway_GLYCOLYSIS	CRC	GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)	0.106150532	7	0.000939626	Case-enriched	NA	NO	Glycolysis
+Pathway_GLYCOLYSIS_E_D	CRC	GLYCOLYSIS-E-D: superpathway of glycolysis and Entner-Doudoroff	0.071290953	7	0.029538167	Case-enriched	NA	NO	Generation of Precursor Metabolites and Energy
+Pathway_HISDEG_PWY	CRC	HISDEG-PWY: L-histidine degradation I	0.177394567	7	0.012966437	Case-enriched	NA	NO	Amino Acid Degradation
+Pathway_HOMOSER_METSYN_PWY	CD	HOMOSER-METSYN-PWY: L-methionine biosynthesis I	-0.135934043	3	0.007483573	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_HSERMETANA_PWY	CD	HSERMETANA-PWY: L-methionine biosynthesis III	-0.351934236	3	0.000324816	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_HSERMETANA_PWY	UC	HSERMETANA-PWY: L-methionine biosynthesis III	-0.214252823	3	0.002656141	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_ILEUSYN_PWY	CD	ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)	-0.045772607	3	0.001261329	Control-enriched	3	Yes	Amino Acid Biosynthesis
+Pathway_ILEUSYN_PWY	CRC	ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)	-0.034155489	7	0.000251662	Control-enriched	NA	NO	Amino Acid Biosynthesis
+Pathway_MET_SAM_PWY	CD	MET-SAM-PWY: superpathway of S-adenosyl-L-methionine biosynthesis	-0.146546651	3	0.001575391	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_METSYN_PWY	CD	METSYN-PWY: L-homoserine and L-methionine biosynthesis	-0.140198363	3	0.001575391	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_NONMEVIPP_PWY	CD	NONMEVIPP-PWY: methylerythritol phosphate pathway I	-0.119909445	3	0.028900107	Control-enriched	3	Yes	Secondary Metabolite Biosynthesis
+Pathway_NONMEVIPP_PWY	UC	NONMEVIPP-PWY: methylerythritol phosphate pathway I	-0.037017523	3	0.041587661	Control-enriched	2	Yes	Secondary Metabolite Biosynthesis
+Pathway_P108_PWY	CRC	P108-PWY: pyruvate fermentation to propanoate I	0.202280779	7	0.028415817	Case-enriched	NA	NO	Fermentation
+Pathway_P161_PWY	CD	P161-PWY: acetylene degradation	0.242198107	3	0.00211497	Case-enriched	NA	NO	Carboxylate Degradation
+Pathway_P161_PWY	CRC	P161-PWY: acetylene degradation	0.146390795	7	0.042168959	Case-enriched	2	Yes	Carboxylate Degradation
+Pathway_P162_PWY	CRC	P162-PWY: L-glutamate degradation V (via hydroxyglutarate)	0.202573955	7	0.03979779	Case-enriched	3	Yes	Amino Acid Degradation
+Pathway_P164_PWY	CRC	P164-PWY: purine nucleobases degradation I (anaerobic)	0.055303894	6	0.03038712	Case-enriched	NA	NO	Nucleoside and Nucleotide Degradation
+Pathway_P441_PWY	CRC	P441-PWY: superpathway of N-acetylneuraminate degradation	0.08923917	7	0.032424171	Case-enriched	NA	NO	Carboxylate Degradation
+Pathway_PANTO_PWY	CD	PANTO-PWY: phosphopantothenate biosynthesis I	-0.050655113	3	0.032782797	Control-enriched	2	Yes	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_PANTO_PWY	UC	PANTO-PWY: phosphopantothenate biosynthesis I	-0.053947541	3	0.009259719	Control-enriched	2	Yes	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_PENTOSE_P_PWY	CD	PENTOSE-P-PWY: pentose phosphate pathway	0.171807479	3	0.005610177	Case-enriched	NA	NO	Generation of Precursor Metabolites and Energy
+Pathway_PHOSLIPSYN_PWY	CD	PHOSLIPSYN-PWY: superpathway of phospholipid biosynthesis I (bacteria)	0.210615668	3	0.00633506	Case-enriched	NA	NO	Fatty Acid and Lipid Biosynthesis
+Pathway_PRPP_PWY	CD	PRPP-PWY: superpathway of histidine, purine, and pyrimidine biosynthesis	-0.159730355	3	0.01552433	Control-enriched	NA	NO	Nucleoside and Nucleotide Biosynthesis
+Pathway_PWY_1269	CRC	PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis I	0.098954926	7	0.039087645	Case-enriched	NA	NO	Carbohydrate Biosynthesis
+Pathway_PWY_3001	CD	PWY-3001: superpathway of L-isoleucine biosynthesis I	-0.044181314	3	0.040930062	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_PWY_3001	CRC	PWY-3001: superpathway of L-isoleucine biosynthesis I	-0.024266755	7	0.032146629	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_PWY_4702	CRC	PWY-4702: phytate degradation I	0.28509263	4	0.029702392	Case-enriched	NA	NO	Secondary Metabolite Degradation
+Pathway_PWY_4984	CRC	PWY-4984: urea cycle	0.136368037	7	0.029702392	Case-enriched	NA	NO	Inorganic Nutrient Metabolism
+Pathway_PWY_5103	CD	PWY-5103: L-isoleucine biosynthesis III	-0.086551207	3	0.004291201	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_PWY_5104	CRC	PWY-5104: L-isoleucine biosynthesis IV	-0.092502691	7	0.027943866	Control-enriched	NA	NO	Amino Acid Biosynthesis
+Pathway_PWY_5304	CRC	PWY-5304: superpathway of sulfur oxidation (Acidianus ambivalens)	-0.255916043	4	0.043931995	Control-enriched	2	Yes	Inorganic Nutrient Metabolism
+Pathway_PWY_5345	CRC	PWY-5345: superpathway of L-methionine biosynthesis (by sulfhydrylation)	0.128102194	7	0.012379104	Case-enriched	NA	NO	Amino Acid Biosynthesis
+Pathway_PWY_5347	CD	PWY-5347: superpathway of L-methionine biosynthesis (transsulfuration)	-0.117248446	3	0.005967537	Control-enriched	2	Yes	Amino Acid Biosynthesis
+Pathway_PWY_5484	CD	PWY-5484: glycolysis II (from fructose 6-phosphate)	0.186938825	3	0.000313927	Case-enriched	NA	NO	Glycolysis
+Pathway_PWY_5484	CRC	PWY-5484: glycolysis II (from fructose 6-phosphate)	0.108671592	7	0.00091838	Case-enriched	NA	NO	Glycolysis
+Pathway_PWY_5676	CRC	PWY-5676: acetyl-CoA fermentation to butanoate II	0.081274183	7	0.030648138	Case-enriched	2	Yes	Fermentation
+Pathway_PWY_6123	CRC	PWY-6123: inosine-5'-phosphate biosynthesis I	-0.031087835	7	0.016440762	Control-enriched	2	Yes	Nucleoside and Nucleotide Biosynthesis
+Pathway_PWY_6124	CRC	PWY-6124: inosine-5'-phosphate biosynthesis II	-0.034433352	7	0.013778403	Control-enriched	2	Yes	Nucleoside and Nucleotide Biosynthesis
+Pathway_PWY_6125	CD	PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	0.087388192	3	0.023509401	Case-enriched	NA	NO	Nucleoside and Nucleotide Biosynthesis
+Pathway_PWY_6151	CRC	PWY-6151: S-adenosyl-L-methionine cycle I	-0.039065519	7	4.16E-05	Control-enriched	NA	NO	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_PWY_6163	CD	PWY-6163: chorismate biosynthesis from 3-dehydroquinate	-0.073087311	3	0.000799384	Control-enriched	3	Yes	Aromatic Compound Biosynthesis
+Pathway_PWY_6168	CRC	PWY-6168: flavin biosynthesis III (fungi)	0.046273263	7	0.040197387	Case-enriched	NA	NO	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_PWY_621	CRC	PWY-621: sucrose degradation III (sucrose invertase)	-0.103719122	7	0.004704451	Control-enriched	4	Yes	Carbohydrate Degradation
+Pathway_PWY_6317	CRC	PWY-6317: galactose degradation I (Leloir pathway)	-0.060126646	7	0.005074672	Control-enriched	3	Yes	Carbohydrate Degradation
+Pathway_PWY_6527	CD	PWY-6527: stachyose degradation	-0.096252747	3	0.008874172	Control-enriched	2	Yes	Carbohydrate Degradation
+Pathway_PWY_6527	CRC	PWY-6527: stachyose degradation	-0.053118054	7	0.000166641	Control-enriched	NA	NO	Carbohydrate Degradation
+Pathway_PWY_6527	UC	PWY-6527: stachyose degradation	-0.070350567	3	0.009259719	Control-enriched	2	Yes	Carbohydrate Degradation
+Pathway_PWY_6737	CD	PWY-6737: starch degradation V	-0.159120736	3	0.000693599	Control-enriched	2	Yes	Carbohydrate Degradation
+Pathway_PWY_6737	CRC	PWY-6737: starch degradation V	-0.027941346	7	0.032424171	Control-enriched	NA	NO	Carbohydrate Degradation
+Pathway_PWY_6737	UC	PWY-6737: starch degradation V	-0.06455576	3	0.009259719	Control-enriched	3	Yes	Carbohydrate Degradation
+Pathway_PWY_6901	CD	PWY-6901: superpathway of glucose and xylose degradation	0.197887766	3	0.008704522	Case-enriched	NA	NO	Carbohydrate Degradation
+Pathway_PWY_6901	CRC	PWY-6901: superpathway of glucose and xylose degradation	0.070834671	7	0.040197387	Case-enriched	NA	NO	Carbohydrate Degradation
+Pathway_PWY_7111	CD	PWY-7111: pyruvate fermentation to isobutanol (engineered)	-0.037043579	3	0.00211497	Control-enriched	3	Yes	Fermentation
+Pathway_PWY_7111	CRC	PWY-7111: pyruvate fermentation to isobutanol (engineered)	-0.029775626	7	4.16E-05	Control-enriched	2	Yes	Fermentation
+Pathway_PWY_7196	UC	PWY-7196: superpathway of pyrimidine ribonucleosides salvage	-0.253272367	2	0.045139344	Control-enriched	NA	NO	Nucleoside and Nucleotide Biosynthesis
+Pathway_PWY_7220	CD	PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	0.117484132	3	0.01552433	Case-enriched	NA	NO	Nucleoside and Nucleotide Biosynthesis
+Pathway_PWY_7222	CD	PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	0.117484132	3	0.01552433	Case-enriched	NA	NO	Nucleoside and Nucleotide Biosynthesis
+Pathway_PWY_724	CD	PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II	-0.063402201	3	5.80E-05	Control-enriched	3	Yes	Amino Acid Biosynthesis
+Pathway_PWY_7357	CD	PWY-7357: thiamin formation from pyrithiamine and oxythiamine (yeast)	-0.085782528	3	0.045059201	Control-enriched	2	Yes	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_PWY_7357	CRC	PWY-7357: thiamin formation from pyrithiamine and oxythiamine (yeast)	-0.042464149	7	0.000582357	Control-enriched	NA	NO	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_PWY0_1296	CRC	PWY0-1296: purine ribonucleosides degradation	-0.026138021	7	0.036030511	Control-enriched	NA	NO	Nucleoside and Nucleotide Degradation
+Pathway_PWY0_1297	CD	PWY0-1297: superpathway of purine deoxyribonucleosides degradation	0.35649469	3	3.68E-08	Case-enriched	NA	NO	Nucleoside and Nucleotide Degradation
+Pathway_PWY0_781	CD	PWY0-781: aspartate superpathway	-0.190580088	3	0.006791985	Control-enriched	NA	NO	Amino Acid Biosynthesis
+Pathway_PWY4FS_7	CD	PWY4FS-7: phosphatidylglycerol biosynthesis I (plastidic)	0.236905589	3	0.002809614	Case-enriched	NA	NO	Fatty Acid and Lipid Biosynthesis
+Pathway_PWY4FS_8	CD	PWY4FS-8: phosphatidylglycerol biosynthesis II (non-plastidic)	0.236533361	3	0.002932584	Case-enriched	NA	NO	Fatty Acid and Lipid Biosynthesis
+Pathway_PWY66_399	CRC	PWY66-399: gluconeogenesis III	0.131687834	7	0.000267793	Case-enriched	NA	NO	Carbohydrate Biosynthesis
+Pathway_PWY66_400	CD	PWY66-400: glycolysis VI (metazoan)	0.307314754	3	1.35E-05	Case-enriched	NA	NO	Glycolysis
+Pathway_PWY66_400	CRC	PWY66-400: glycolysis VI (metazoan)	0.107689523	7	0.000591216	Case-enriched	NA	NO	Glycolysis
+Pathway_PWY66_422	CRC	PWY66-422: D-galactose degradation V (Leloir pathway)	-0.057916315	7	0.00713619	Control-enriched	3	Yes	Carbohydrate Degradation
+Pathway_PYRIDNUCSYN_PWY	CD	PYRIDNUCSYN-PWY: NAD biosynthesis I (from aspartate)	-0.276615315	3	3.19E-05	Control-enriched	3	Yes	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_PYRIDNUCSYN_PWY	UC	PYRIDNUCSYN-PWY: NAD biosynthesis I (from aspartate)	-0.087459535	3	0.01588194	Control-enriched	2	Yes	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_PYRIDOXSYN_PWY	CRC	PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I	0.118120029	7	0.013336641	Case-enriched	NA	NO	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_THISYNARA_PWY	CRC	THISYNARA-PWY: superpathway of thiamin diphosphate biosynthesis III (eukaryotes)	-0.043183941	7	0.00713619	Control-enriched	NA	NO	Cofactor, Carrier, and Vitamin Biosynthesis
+Pathway_TRNA_CHARGING_PWY	UC	TRNA-CHARGING-PWY: tRNA charging	-0.15408369	3	0.000102372	Control-enriched	3	Yes	Aminoacyl-tRNA Charging
+Pathway_VALSYN_PWY	CD	VALSYN-PWY: L-valine biosynthesis	-0.044618308	3	0.001487359	Control-enriched	3	Yes	Amino Acid Biosynthesis
+Pathway_VALSYN_PWY	CRC	VALSYN-PWY: L-valine biosynthesis	-0.034155489	7	0.000251662	Control-enriched	NA	NO	Amino Acid Biosynthesis

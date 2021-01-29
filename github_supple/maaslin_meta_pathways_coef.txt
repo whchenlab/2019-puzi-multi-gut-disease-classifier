@@ -1,0 +1,87 @@
+feature	exposure	coef	k	qval.fdr	Trend
+PWY-5304: superpathway of sulfur oxidation (Acidianus ambivalens)	CRC	-0.255916042770816	4	0.0439319949840723	Control-enriched
+P161-PWY: acetylene degradation	CRC	0.146390795438543	7	0.0421689590289724	Case-enriched
+PWY-6168: flavin biosynthesis III (fungi)	CRC	0.0462732626063557	7	0.0401973872118263	Case-enriched
+PWY-6901: superpathway of glucose and xylose degradation	CRC	0.0708346706936116	7	0.0401973872118263	Case-enriched
+P162-PWY: L-glutamate degradation V (via hydroxyglutarate)	CRC	0.202573955485702	7	0.0397977901222708	Case-enriched
+PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis I	CRC	0.0989549262765111	7	0.0390876448898124	Case-enriched
+PWY0-1296: purine ribonucleosides degradation	CRC	-0.026138020603746	7	0.0360305111316305	Control-enriched
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis	CRC	-0.022325779219683	7	0.0330169906279067	Control-enriched
+PWY-6737: starch degradation V	CRC	-0.0279413464431269	7	0.0324241708338888	Control-enriched
+P441-PWY: superpathway of N-acetylneuraminate degradation	CRC	0.0892391698163825	7	0.0324241708338888	Case-enriched
+PWY-3001: superpathway of L-isoleucine biosynthesis I	CRC	-0.0242667548230938	7	0.0321466290320198	Control-enriched
+PWY-5676: acetyl-CoA fermentation to butanoate II	CRC	0.0812741832249083	7	0.0306481377555272	Case-enriched
+P164-PWY: purine nucleobases degradation I (anaerobic)	CRC	0.0553038936028184	6	0.0303871203202064	Case-enriched
+PWY-4984: urea cycle	CRC	0.136368037157294	7	0.0297023922205468	Case-enriched
+PWY-4702: phytate degradation I	CRC	0.28509262951344	4	0.0297023922205468	Case-enriched
+GLYCOLYSIS-E-D: superpathway of glycolysis and Entner-Doudoroff	CRC	0.0712909526134333	7	0.0295381674271033	Case-enriched
+P108-PWY: pyruvate fermentation to propanoate I	CRC	0.2022807791736	7	0.0284158168977891	Case-enriched
+PWY-5104: L-isoleucine biosynthesis IV	CRC	-0.0925026905267218	7	0.0279438664334077	Control-enriched
+PWY-6123: inosine-5'-phosphate biosynthesis I	CRC	-0.0310878352346734	7	0.016440761981798	Control-enriched
+PWY-6124: inosine-5'-phosphate biosynthesis II	CRC	-0.0344333521451845	7	0.0137784028983289	Control-enriched
+PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I	CRC	0.118120029471108	7	0.0133366408163438	Case-enriched
+HISDEG-PWY: L-histidine degradation I	CRC	0.177394566707127	7	0.0129664370467991	Case-enriched
+PWY-5345: superpathway of L-methionine biosynthesis (by sulfhydrylation)	CRC	0.128102193721588	7	0.0123791036352103	Case-enriched
+THISYNARA-PWY: superpathway of thiamin diphosphate biosynthesis III (eukaryotes)	CRC	-0.043183940775644	7	0.00713619006299929	Control-enriched
+PWY66-422: D-galactose degradation V (Leloir pathway)	CRC	-0.0579163151752864	7	0.00713619006299929	Control-enriched
+PWY-6317: galactose degradation I (Leloir pathway)	CRC	-0.0601266459623842	7	0.00507467193383708	Control-enriched
+PWY-621: sucrose degradation III (sucrose invertase)	CRC	-0.103719122432035	7	0.0047044513537322	Control-enriched
+GLUCONEO-PWY: gluconeogenesis I	CRC	0.130987184496367	7	0.00222192181242197	Case-enriched
+ANAEROFRUCAT-PWY: homolactic fermentation	CRC	0.0497179880244564	7	0.00183858304778676	Case-enriched
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)	CRC	0.106150532246416	7	0.000939625519117289	Case-enriched
+PWY-5484: glycolysis II (from fructose 6-phosphate)	CRC	0.108671591599868	7	0.000918380256704731	Case-enriched
+PWY66-400: glycolysis VI (metazoan)	CRC	0.107689522946494	7	0.000591215721681283	Case-enriched
+PWY-7357: thiamin formation from pyrithiamine and oxythiamine (yeast)	CRC	-0.0424641486525064	7	0.000582357177315588	Control-enriched
+PWY66-399: gluconeogenesis III	CRC	0.13168783423849	7	0.000267793168023123	Case-enriched
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)	CRC	-0.0341554886736398	7	0.000251662233136229	Control-enriched
+VALSYN-PWY: L-valine biosynthesis	CRC	-0.0341554886736398	7	0.000251662233136229	Control-enriched
+PWY-6527: stachyose degradation	CRC	-0.0531180544092251	7	0.000166640816644299	Control-enriched
+PWY-6151: S-adenosyl-L-methionine cycle I	CRC	-0.0390655188935595	7	4.15873401165199e-05	Control-enriched
+PWY-7111: pyruvate fermentation to isobutanol (engineered)	CRC	-0.0297756258358624	7	4.15873401165199e-05	Control-enriched
+PWY-7357: thiamin formation from pyrithiamine and oxythiamine (yeast)	CD	-0.0857825277285177	3	0.0450592005166912	Control-enriched
+PWY-3001: superpathway of L-isoleucine biosynthesis I	CD	-0.0441813136208666	3	0.040930062039765	Control-enriched
+PANTO-PWY: phosphopantothenate biosynthesis I	CD	-0.0506551128959547	3	0.0327827965952448	Control-enriched
+NONMEVIPP-PWY: methylerythritol phosphate pathway I	CD	-0.119909445226083	3	0.0289001069696565	Control-enriched
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	CD	0.087388191939634	3	0.0235094008605422	Case-enriched
+ANAEROFRUCAT-PWY: homolactic fermentation	CD	0.0877864944234144	3	0.0204703516097207	Case-enriched
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	CD	0.117484131658912	3	0.0155243302172281	Case-enriched
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	CD	0.117484131658912	3	0.0155243302172281	Case-enriched
+PRPP-PWY: superpathway of histidine, purine, and pyrimidine biosynthesis	CD	-0.159730354795286	3	0.0155243302172281	Control-enriched
+BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched amino acid biosynthesis	CD	-0.0890379535739689	3	0.0155243302172281	Control-enriched
+PWY-6527: stachyose degradation	CD	-0.0962527473081479	3	0.00887417221662498	Control-enriched
+PWY-6901: superpathway of glucose and xylose degradation	CD	0.197887765771553	3	0.00870452156700262	Case-enriched
+HOMOSER-METSYN-PWY: L-methionine biosynthesis I	CD	-0.135934043018337	3	0.0074835732265058	Control-enriched
+PWY0-781: aspartate superpathway	CD	-0.190580087987132	3	0.00679198493872316	Control-enriched
+PHOSLIPSYN-PWY: superpathway of phospholipid biosynthesis I (bacteria)	CD	0.210615667862629	3	0.00633505986642428	Case-enriched
+PWY-5347: superpathway of L-methionine biosynthesis (transsulfuration)	CD	-0.11724844578019	3	0.00596753694619942	Control-enriched
+PENTOSE-P-PWY: pentose phosphate pathway	CD	0.171807479297412	3	0.00561017695561049	Case-enriched
+PWY-5103: L-isoleucine biosynthesis III	CD	-0.0865512071310145	3	0.00429120057266713	Control-enriched
+PWY4FS-8: phosphatidylglycerol biosynthesis II (non-plastidic)	CD	0.236533361360954	3	0.00293258369958389	Case-enriched
+PWY4FS-7: phosphatidylglycerol biosynthesis I (plastidic)	CD	0.236905589439034	3	0.00280961434126959	Case-enriched
+PWY-7111: pyruvate fermentation to isobutanol (engineered)	CD	-0.0370435794853476	3	0.0021149704020417	Control-enriched
+P161-PWY: acetylene degradation	CD	0.242198106906254	3	0.0021149704020417	Case-enriched
+ARO-PWY: chorismate biosynthesis I	CD	-0.0656457225046659	3	0.00210297665192965	Control-enriched
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis	CD	-0.0612690840039882	3	0.00204839240138848	Control-enriched
+MET-SAM-PWY: superpathway of S-adenosyl-L-methionine biosynthesis	CD	-0.146546650880961	3	0.00157539084486794	Control-enriched
+METSYN-PWY: L-homoserine and L-methionine biosynthesis	CD	-0.14019836253376	3	0.00157539084486794	Control-enriched
+VALSYN-PWY: L-valine biosynthesis	CD	-0.0446183076321438	3	0.00148735879345159	Control-enriched
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)	CD	-0.0457726071681447	3	0.00126132930215783	Control-enriched
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate	CD	-0.0730873105217139	3	0.000799384278827229	Control-enriched
+PWY-6737: starch degradation V	CD	-0.159120735966805	3	0.000693598614676911	Control-enriched
+HSERMETANA-PWY: L-methionine biosynthesis III	CD	-0.351934236407035	3	0.000324816409121077	Control-enriched
+PWY-5484: glycolysis II (from fructose 6-phosphate)	CD	0.186938824738463	3	0.000313926541406388	Case-enriched
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)	CD	0.19316692961846	3	0.000227787264582448	Case-enriched
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II	CD	-0.0634022009628055	3	5.80440631378673e-05	Control-enriched
+PYRIDNUCSYN-PWY: NAD biosynthesis I (from aspartate)	CD	-0.276615314870472	3	3.18970685382238e-05	Control-enriched
+PWY66-400: glycolysis VI (metazoan)	CD	0.307314753755225	3	1.35335203836702e-05	Case-enriched
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation	CD	0.356494690000218	3	3.68262184948914e-08	Case-enriched
+PWY-7196: superpathway of pyrimidine ribonucleosides salvage	UC	-0.253272367184797	2	0.0451393436641774	Control-enriched
+ARGININE-SYN4-PWY: L-ornithine de novo  biosynthesis	UC	-0.22144169269776	3	0.0451393436641774	Control-enriched
+NONMEVIPP-PWY: methylerythritol phosphate pathway I	UC	-0.0370175233574887	3	0.0415876607588912	Control-enriched
+ARO-PWY: chorismate biosynthesis I	UC	-0.0452435056821643	3	0.0158819403707399	Control-enriched
+PYRIDNUCSYN-PWY: NAD biosynthesis I (from aspartate)	UC	-0.0874595354787062	3	0.0158819403707399	Control-enriched
+PWY-6737: starch degradation V	UC	-0.0645557597322617	3	0.00925971942228006	Control-enriched
+PWY-6527: stachyose degradation	UC	-0.0703505667349595	3	0.00925971942228006	Control-enriched
+PANTO-PWY: phosphopantothenate biosynthesis I	UC	-0.0539475408008502	3	0.00925971942228006	Control-enriched
+HSERMETANA-PWY: L-methionine biosynthesis III	UC	-0.214252822752272	3	0.00265614131511663	Control-enriched
+TRNA-CHARGING-PWY: tRNA charging	UC	-0.154083689563629	3	0.000102371981774725	Control-enriched
