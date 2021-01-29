@@ -1,0 +1,13 @@
+target_real	target	disease	random.r	random.pvalue	fdr	features	variable	edgestrength	edgetrend
+Alistipes_finegoldii_Acidaminococcus_intestini	Alistipes_finegoldii_Acidaminococcus_intestini_UC	UC	-0.207005439076243	0.00397760017464008	0.00981613495126312	Alistipes_finegoldii	Acidaminococcus_intestini	1	-1
+Streptococcus_mitis_oralis_pneumoniae_Ruminococcus_bromii	Streptococcus_mitis_oralis_pneumoniae_Ruminococcus_bromii_UC	UC	-0.203713714173181	0.0021808312200333	0.00626141990101621	Streptococcus_mitis_oralis_pneumoniae	Ruminococcus_bromii	1	-1
+NA	NA	UC	0	0	0	Bacteroides_cellulosilyticus	Bacteroides_cellulosilyticus	0	0
+NA	NA	UC	0	0	0	Bacteroides_thetaiotaomicron	Bacteroides_thetaiotaomicron	0	0
+NA	NA	UC	0	0	0	Anaerococcus_vaginalis	Anaerococcus_vaginalis	0	0
+NA	NA	UC	0	0	0	Clostridium_sp_KLE_1755	Clostridium_sp_KLE_1755	0	0
+NA	NA	UC	0	0	0	Flavonifractor_plautii	Flavonifractor_plautii	0	0
+NA	NA	UC	0	0	0	Gemella_morbillorum	Gemella_morbillorum	0	0
+NA	NA	UC	0	0	0	Peptostreptococcus_stomatis	Peptostreptococcus_stomatis	0	0
+NA	NA	UC	0	0	0	Ruminococcus_gnavus	Ruminococcus_gnavus	0	0
+NA	NA	UC	0	0	0	Solobacterium_moorei	Solobacterium_moorei	0	0
+NA	NA	UC	0	0	0	Subdoligranulum_unclassified	Subdoligranulum_unclassified	0	0
