@@ -1,0 +1,4 @@
+"SUID","Group","MCODE_Cluster","MCODE_Node_Status","MCODE_Score","name","Prevalence","selected","shared name","Type"
+"252","UC","Cluster 1","Seed","2.0","Anaerococcus_vaginalis","0.0790960451977401","false","Anaerococcus_vaginalis","Case-enriched"
+"251","UC","Cluster 1","Clustered","1.6666666666666667","Gemella_morbillorum","0.0734463276836158","false","Gemella_morbillorum","Case-enriched"
+"254","UC","Cluster 1","Clustered","1.6666666666666667","Peptostreptococcus_stomatis","0.163841807909605","false","Peptostreptococcus_stomatis","Case-enriched"

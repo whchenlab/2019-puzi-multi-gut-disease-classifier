@@ -1,0 +1,4 @@
+"SUID","Group","MCODE_Cluster","MCODE_Node_Status","MCODE_Score","name","Prevalence","selected","shared name","Type"
+"89","CD","Cluster 3","Clustered","2.4000000000000004","Escherichia_coli","0.732758620689655","false","Escherichia_coli","Case-enriched"
+"109","CD","Cluster 3","Clustered","2.7","Veillonella_parvula","0.568965517241379","false","Veillonella_parvula","Case-enriched"
+"108","CD","Cluster 3","Seed","3.0","Veillonella_atypica","0.344827586206897","false","Veillonella_atypica","Case-enriched"

@@ -1,0 +1,4 @@
+"SUID","degree.layout","Group","MCODE_Cluster","MCODE_Node_Status","MCODE_Score","name","Prevalence","selected","shared name","Type"
+"628",,"CTR","Cluster 2|Cluster 1","Clustered","8.0","Clostridium_bolteae","0.495238095238095","false","Clostridium_bolteae","Case-enriched"
+"622",,"CTR","Cluster 2","Seed","1.2","Alistipes_shahii","0.723809523809524","false","Alistipes_shahii","Control-enriched"
+"630",,"CTR","Cluster 2|Cluster 1","Clustered","8.0","Clostridium_symbiosum","0.295238095238095","false","Clostridium_symbiosum","Case-enriched"

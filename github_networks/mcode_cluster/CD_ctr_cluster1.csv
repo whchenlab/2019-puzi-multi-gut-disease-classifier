@@ -1,0 +1,5 @@
+"SUID","degree.layout","Group","MCODE_Cluster","MCODE_Node_Status","MCODE_Score","name","Prevalence","selected","shared name","Type"
+"648",,"CTR","Cluster 1","Clustered","3.0","Veillonella_parvula","0.419047619047619","false","Veillonella_parvula","Case-enriched"
+"647",,"CTR","Cluster 1","Clustered","3.0","Streptococcus_parasanguinis","0.666666666666667","false","Streptococcus_parasanguinis","Case-enriched"
+"646",,"CTR","Cluster 1","Seed","3.0","Veillonella_atypica","0.228571428571429","false","Veillonella_atypica","Case-enriched"
+"649",,"CTR","Cluster 1","Clustered","3.0","Veillonella_unclassified","0.628571428571429","false","Veillonella_unclassified","Case-enriched"

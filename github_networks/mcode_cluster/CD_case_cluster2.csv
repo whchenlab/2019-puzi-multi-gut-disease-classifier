@@ -1,0 +1,5 @@
+"SUID","Group","MCODE_Cluster","MCODE_Node_Status","MCODE_Score","name","Prevalence","selected","shared name","Type"
+"74","CD","Cluster 2","Clustered","2.4000000000000004","Alistipes_putredinis","0.383620689655172","false","Alistipes_putredinis","Control-enriched"
+"73","CD","Cluster 2","Unclustered","0.0","Alistipes_finegoldii","0.349137931034483","false","Alistipes_finegoldii","Control-enriched"
+"77","CD","Cluster 2","Clustered","2.0","Bacteroidales_bacterium_ph8","0.181034482758621","false","Bacteroidales_bacterium_ph8","Control-enriched"
+"75","CD","Cluster 2","Clustered","2.4000000000000004","Alistipes_shahii","0.293103448275862","false","Alistipes_shahii","Control-enriched"
