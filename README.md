@@ -5,4 +5,4 @@ machine learning models capable of distinguishing multiple intestinal diseases, 
 fold 'github networks' contains the files for constructing networks and modules.
 
 ##
-fold 'github Supple' contains the results plotting in Figure 1 and Figure 2.
+fold 'github Supple' contains the supplementary files, including the metadata, maaslin results and importance scores of random forest models.
